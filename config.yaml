@@ -1,0 +1,26 @@
+# Core configuration for the quant system
+data:
+  provider: "yfinance"  # alpaca or yfinance
+
+universe:
+  min_avg_volume: 100000
+  max_universe: 200
+
+strategy:
+  top_n: 10
+  breakout_window: 20
+  use_ml: false
+
+risk:
+  capital: 10000.0
+  max_leverage: 2.0
+  max_position_pct: 0.10
+  stop_atr_multiplier: 2.0
+  portfolio_max_drawdown: 0.15
+
+execution:
+  commission: 0.0005
+  slippage: 0.0005
+
+paper:
+  enabled: true

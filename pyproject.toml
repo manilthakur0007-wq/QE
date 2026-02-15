@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quant_engine"
+version = "0.1.0"
+description = "Modular quantitative equity research and paper trading engine (paper mode only)."
+requires-python = ">=3.11"
+authors = [ { name = "Quant Author" } ]

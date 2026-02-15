@@ -1,0 +1,9 @@
+pandas
+numpy
+yfinance
+matplotlib
+scikit-learn
+pyyaml
+python-dotenv
+alpaca-trade-api
+websockets
